@@ -41,11 +41,15 @@ import com.alibaba.android.vlayout.VirtualLayoutManager.LayoutStateWrapper;
 import com.alibaba.android.vlayout.layout.GridLayoutHelper.DefaultSpanSizeLookup;
 import com.alibaba.android.vlayout.layout.GridLayoutHelper.SpanSizeLookup;
 
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
+import androidx.annotation.NonNull;
+import androidx.collection.ArrayMap;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView.Recycler;
+import androidx.recyclerview.widget.RecyclerView.State;
+import android.util.Log;
+import android.view.View;
 
-import static android.support.v7.widget.LinearLayoutManager.VERTICAL;
+import static androidx.recyclerview.widget.LinearLayoutManager.VERTICAL;
 
 /**
  * LayoutHelper provides RangeGridLayoutHelper. The difference with {@link GridLayoutHelper} is that this layoutHelper could has child group logically but implemented as flat.
