@@ -35,6 +35,8 @@ import com.alibaba.android.vlayout.OrientationHelperEx;
 import com.alibaba.android.vlayout.VirtualLayoutManager;
 import com.alibaba.android.vlayout.VirtualLayoutManager.LayoutStateWrapper;
 
+import java.util.List;
+
 import static androidx.recyclerview.widget.LinearLayoutManager.VERTICAL;
 
 

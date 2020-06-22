@@ -45,6 +45,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 import static com.alibaba.android.vlayout.VirtualLayoutManager.HORIZONTAL;
 import static com.alibaba.android.vlayout.VirtualLayoutManager.VERTICAL;
+import static junit.framework.Assert.assertEquals;
 
 /**
  * Created by villadora on 16/2/24.
